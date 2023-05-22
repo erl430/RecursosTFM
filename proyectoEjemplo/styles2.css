@@ -1,0 +1,37 @@
+/* Estilos para la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #35424a;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #f7e8e8;
+  padding: 20px;
+}
+
+.contenido {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+
+  gap: 50px;
+}
+
+.texto {
+  flex-basis: 50%;
+}
+
+.imagen {
+  flex-basis: 35%;
+  margin: 0;
+}
+
